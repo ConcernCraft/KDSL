@@ -1,0 +1,27 @@
+{
+    "schemaVersion": 1,
+    "id": "kdsl",
+    "version": "${version}",
+    "name": "KDSL",
+    "description": "Kotlin DSLs for common patterns in Minecraft.",
+    "authors": [
+        "leocth"
+    ],
+    "contact": {},
+    "license": "Apache-2.0",
+    "icon": "assets/kdsl/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "io.github.concerncraft.kdsl.KdslKt::test"
+        ]
+    },
+    "mixins": [
+        "kdsl.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.10.8",
+        "minecraft": "1.17-alpha.20.49.a",
+        "fabric-language-kotlin": "*"
+    }
+}
